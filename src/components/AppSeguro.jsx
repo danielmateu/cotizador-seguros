@@ -1,14 +1,12 @@
 
-import { useContext } from "react"
-import CotizadorContext from "../context/CotizadorProvider"
+import useCotizador from "../hooks/useCotizador";
 import { Formulario } from "./Formulario"
 
 
 export const AppSeguro = () => {
 
-    const {modal} = useContext(CotizadorContext)
-
-    console.log(modal);
+    // const {modal} = useCotizador()
+    // console.log(modal);
 
     return (
         <>

@@ -5,17 +5,17 @@ const CotizadorContext = createContext();
 
 function CotizadorProvider({ children }) {
 
-    const [modal, setModal] = useState(false);
+    // const [modal, setModal] = useState(false);
 
-    const cambiarState = () => {
-        setModal(!modal)
-    }
+    // const cambiarState = () => {
+    //     setModal(!modal)
+    // }
 
     return (
         <CotizadorContext.Provider
             value={{
-                modal,
-                cambiarState
+                // modal,
+                // cambiarState
             }}
         >
             {children}
