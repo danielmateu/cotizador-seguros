@@ -9,7 +9,7 @@ export const AppSeguro = () => {
             </header>
 
             <main className="bg-white md:w-2/3 lg:w-2/4 mx-auto shadow rounded-lg p-10">
-                <p>Contenido Principal</p>
+                {/* <p>Contenido Principal</p> */}
 
                 <Formulario></Formulario>
 
