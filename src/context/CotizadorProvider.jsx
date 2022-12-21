@@ -9,7 +9,9 @@ function CotizadorProvider({ children }) {
         marca: '',
         year: '',
         plan: '',
-    })
+    });
+
+    const [error, setError] = useState('')
 
     const handleChangeDatos = e => {
         setDatos({
@@ -23,6 +25,8 @@ function CotizadorProvider({ children }) {
             value={{
                 datos,
                 handleChangeDatos,
+                error,
+                setError
             }}
         >
             {children}
